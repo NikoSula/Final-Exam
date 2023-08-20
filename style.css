@@ -257,8 +257,8 @@ body{
 }
 
 .window{
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	background-color: #FAFAFA;
 	text-align: center;
 	display: flex;
@@ -274,8 +274,8 @@ body{
 
 .hidden{
 	background-color: #15263E;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -285,8 +285,8 @@ body{
 
 .main-box{
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	background-color: #FAFAFA;
 	text-align: center;
 	display: flex;
@@ -376,6 +376,106 @@ body{
 	color: #F9F9F9;
 }
 
+.projects{
+	background-color: #15263E;
+	width: 400px;
+	height: 300px;
+	padding: 40px 40px;
+	margin-left: 200px;
+}
+
+.lower-project{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-project{
+	display: flex;
+	justify-content: space-around;
+}
+
+.proj{
+	color: #F9F9F9;
+	margin-bottom: 10px;
+	transition: linear 0.5s;
+	font-family: 'Muli', sans-serif;
+}
+
+.proj:hover{
+	color: #E93656;
+	cursor: pointer;
+}
+
+.heart-logo{
+	border: solid;
+	border-radius: 50%;
+	border-color: #E93656;
+	padding: 5px 5px;
+}
+
+.hidden-name{
+	background-color: rgb(0, 0, 0, 0.8);
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.colage{
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: absolute;
+	transition: linear 0.3s;
+}
+
+.colage:hover{
+	display: none;
+}
+
+.mini{
+	font-size: 12px;
+}
+
+.div-2-grid{
+	display: grid;
+	grid-template-areas: 
+		"box-9 box-10 box-11"
+        "box-12 box-13 box-14";
+	padding-left: 50px;
+	padding-right: 200px;
+	gap: 20px;
+}
+
+.box-9{
+	grid-area: box-9;
+}
+.box-10{
+	grid-area: box-10;
+}
+.box-11{
+	grid-area: box-11;
+}
+.box-12{
+	grid-area: box-12;
+}
+.box-13{
+	grid-area: box-13;
+}
+.box-14{
+	grid-area: box-14;
+}
+
+.section-five{
+	margin-top: 70px;
+}
+
+.latest-projects{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
 
 
 
@@ -408,5 +508,20 @@ body{
 @keyframes Teamwork{
 	100%{
 		width: 89%;
+	}
+}
+
+
+@media (width<=1024px){
+	.div-grid{
+			display: grid;
+			grid-template-areas:
+				"box-1 box-2 box-3"
+				"box-4 box-5 box-6"
+				"box-7 box-8";
+			gap: 25px;
+			margin-top: 50px;
+			padding-left: 200px;
+			padding-right: 200px;
 	}
 }
