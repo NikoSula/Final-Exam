@@ -269,7 +269,7 @@ body{
 .grid-logo{
 	width: 50px;
 	height: 50px;
-	margin-left: 120px;
+	margin-left: 100px;
 }
 
 .hidden{
@@ -476,9 +476,181 @@ body{
 	margin-bottom: 30px;
 }
 
+.green{
+	color: #2ED279;
+}
 
+.articles{
+	text-align: center;
+	align-items: center;
+	margin-top: 80px;
+}
 
+.left-article{
+	background-color: #FAFAFA;
+	padding: 50px 50px;
+	max-width: 700px;
+	height: 500px;
+}
 
+.mid-article{
+	background-color: #15263E;
+	color: #E93656;
+	width: 100px;
+	padding-top: 35px;
+	height: 100px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.date{
+	width: 200px;
+}
+
+.rotate{
+	transform: rotate(-90deg);
+}
+
+.article-photo{
+	max-width: 700px;
+	height: 500px;
+}
+
+.articles-line{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 30px;
+}
+
+.mid-article-line{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.section-six{
+	margin-top: 50px;
+}
+
+.friends-photo{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin-top: -200px;
+}
+
+.photo-info{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding-top: 20px;
+	border: solid;
+	border-color: #E93656;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.photos{
+	display: flex;
+	justify-content: center;
+}
+
+.whole-square{
+	margin-right: 60px;
+}
+
+.section-seven{
+	margin-top: 60px;
+	height: 400px;
+}
+
+.friends-photo:hover{
+	display: none;
+}
+
+.contact-us{
+	margin-bottom: 30px;
+}
+
+.form{
+	margin-bottom: 10px;
+}
+
+.above-footer{
+	width: 100%;
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+	rgba(0, 0, 0, 0.7)),url(images/map.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.send{
+	display: block;
+	margin-top: 20px;
+	border: solid;
+	border-color: #E93656;
+	padding: 15px 30px;
+	background-color: transparent;
+	color: #E93656;
+}
+
+.grey{
+	color: #B3B3B3;
+}
+
+.upper-footer{
+	background-color: #282828;
+	height: 400px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.all-info{
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-logo{
+	font-family: 'Poppins', sans-serif;
+	font-size: 55px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+.dot-2{
+	font-size: 105px;
+	color: #E93656;
+}
+
+.final-logo{
+	filter: invert(95%) sepia(72%) saturate(7483%) hue-rotate(156deg) brightness(104%) contrast(76%);
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.down{
+	margin-top: 12px;
+}
+
+.last-line{
+	color: #A0A8B7;
+	background-color:#171717;
+	height: 80px;
+	padding-top: 30px;
+}
+
+.lower-footer{
+	text-align:center;
+}
 
 
 
